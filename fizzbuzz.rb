@@ -6,7 +6,7 @@ def fizzbuzz(arg)
   elsif (arg%3 == 0)
     return "Fizz"
   elsif (arg%5 == 0)
-    puts "Buzz"
-  else return nil
+    return "Buzz"
+  else  nil
   end
 end
