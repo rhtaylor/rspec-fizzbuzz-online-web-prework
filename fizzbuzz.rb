@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(arg)
   if (arg%3 == 0) && (arg % 5 == 0)
-    puts "fizzbuzz"
+    return "fizzbuzz"
   elsif arg%3 == 0
-    puts "fizz"
+    return "fizz"
   elsif arg%5 == 0
     puts "buzz"
-  else puts nil
+  else return nil
   end
 end
- fizzbuzz(15)
+ 
