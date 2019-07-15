@@ -7,7 +7,7 @@ def fizzbuzz(arg)
     puts "fizz"
   elsif arg%5 == 0
     puts "buzz"
-  else nil
+  else puts nil
   end
 end
  fizzbuzz(2)
