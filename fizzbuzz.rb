@@ -4,9 +4,9 @@ def fizzbuzz(arg)
   if (arg%3 == 0) && (arg % 5 == 0)
     return "fizzbuzz"
   elsif arg%3 == 0
-    return "fizz"
+    return "Fizz"
   elsif arg%5 == 0
-    puts "buzz"
+    puts "Buzz"
   else return nil
   end
 end
